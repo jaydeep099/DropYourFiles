@@ -28,7 +28,7 @@ export async function Post(request: NextRequest) {
 
     const fileData = {
       name: imagekit.name || "Untitled",
-      path: imagekit.filePath || `/droply/${userId}/${imagekit.name}`,
+      path: imagekit.filePath || `/dyf/${userId}/${imagekit.name}`,
       size: imagekit.size || 0,
       type: imagekit.fileType || "image",
       fileUrl: imagekit.url,
